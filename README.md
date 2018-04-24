@@ -7,7 +7,7 @@
 [additive1]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture2.png
 [additive2]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture3.png
 [additive_plot]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture4.png
-[multiplicative_plot]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture7.jpg
+[multiplicative_plot]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture7.png
 
 
 
@@ -44,6 +44,7 @@ For quantitative performance evaluation, we looked into three different image qu
 In the above equations,   are mean squared error, local means, standard deviations and cross-covariance for images x and y respectively. The image quality indices are evaluated over a range of noise variance to comparing the performance between pre-trained and custom trained CNN. Figure 3 shows our initial findings.
 
 ![multiplicative_plot]
+
 Figure 3 shows quantitatively similar results to the qualitative results shown in Figures 1 and 2. We can see that the pCNN performs better for lower image noise levels (0-0.12) than all of the cCNNs. However, when reaching higher noise levels, the cCNNs trained with higher noise levels perform better than the pCNN. We do want to add caution, even if the quantitative measurements show better results, qualitative results are needed to see key features and finer details such as the clock hands in Figures 1 and 2.
 
 ## Network Description
