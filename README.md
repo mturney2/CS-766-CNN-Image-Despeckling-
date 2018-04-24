@@ -28,10 +28,12 @@ We are attempting to address the problem by designing an image despeckling convo
 
 ### Network Description
 ### Residual Learning Formulation
+![flowchart3]
 
 ### Network Architecture
 
 ### Direct Denoising Formulation
+![flowchart2]
 
 ## Results for Additive Noise
 We are implementing the CNN using MATLAB Neural Network Toolbox (Neural Network Toolbox Release 2018a, The MathWorks, Inc., Natick,     Massachusetts, United States). Our main goal for mid-term progress was to gain familiarity with the concepts related to designing and   training a convolutional neural network in MATLAB. To achieve that goal, we have done the following –  
