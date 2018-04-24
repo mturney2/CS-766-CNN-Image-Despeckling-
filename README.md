@@ -11,7 +11,7 @@
 
 
 
-# Image Denoising using a Convolutional Nerual Network
+# Image Denoising using a Convolutional Neural Network
 ## Rashid Al Mukaddim, Michael Turney, Robert Pohlman
 
 ## Problem Statement
