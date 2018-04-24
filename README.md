@@ -54,13 +54,22 @@ The examples show that the CNNs have trade-offs between recovering global and fi
 For quantitative performance evaluation, we looked into three different image quality metrics – a) Peak SNR (pSNR) b) Mean Squared Error (MSE) and c) Structural Similarity Index (SSIM) [3]. The metrics are defined as follows –
 
 
-In the above equations,   are mean squared error, local means, standard deviations and cross-covariance for images x and y respectively. The image quality indices are evaluated over a range of noise variance to comparing the performance between pre-trained and custom trained CNN. Figure 3 shows our initial findings.
+In the above equations,   are mean squared error, local means, standard deviations and cross-covariance for images x and y respectively. The image quality indices are evaluated over a range of noise variance to comparing the performance between pre-trained and custom trained CNN. 
+
+![additive_plot]
+
+The quantitative plots show similar results to the qualitative results shown in the above figures. We can see that the pCNN performs better for lower image noise levels (0-0.12) than all of the cCNNs. However, when reaching higher noise levels, the cCNNs trained with higher noise levels perform better than the pCNN. We do want to add caution, even if the quantitative measurements show better results, qualitative results are needed to see key features and finer details such as the clock hands in the above figures.
+
+## Results for Multiplicative Noise
+
+![multiplicative1]
+
+![multiplicative1_zoomed]
+
+[multiplicative2]
 
 ![multiplicative_plot]
 
-The quantitative plots show similar results to the qualitative results shown in Figures 1 and 2. We can see that the pCNN performs better for lower image noise levels (0-0.12) than all of the cCNNs. However, when reaching higher noise levels, the cCNNs trained with higher noise levels perform better than the pCNN. We do want to add caution, even if the quantitative measurements show better results, qualitative results are needed to see key features and finer details such as the clock hands in Figures 1 and 2.
-
-## Results for Multiplicative Noise
 
 
 ### References
