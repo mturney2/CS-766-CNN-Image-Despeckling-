@@ -12,7 +12,7 @@
 
 # Image Denoising using a Convolutional Neural Network
 ## Rashid Al Mukaddim, Michael Turney, Robert Pohlman
-![test] https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Test.png
+![test](https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Test.png)
 
 ## Problem Statement
 The project is focused to reduce speckle noise present in B-mode ultrasound (US) imaging. Conventional speckle noise reduction techniques fail to preserve edges and finer details while removing noise. The main aim of the project is to achieve speckle removal from B-mode US images while maintaining edge/sharp features.  
