@@ -7,7 +7,7 @@ The project is focused to reduce speckle noise present in B-mode ultrasound (US)
 ## Proposed Solution
 We are attempting to address the problem by designing an image despeckling convolutional neural network. The network structure is motivated be the work by Wang et. al [1].
 
-[flowchart]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture1.png
+![flowchart]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture1.png
 
 ## Midterm Progress
 We are implementing the CNN using MATLAB Neural Network Toolbox (Neural Network Toolbox Release 2018a, The MathWorks, Inc., Natick,     Massachusetts, United States). Our main goal for mid-term progress was to gain familiarity with the concepts related to designing and   training a convolutional neural network in MATLAB. To achieve that goal, we have done the following –  
