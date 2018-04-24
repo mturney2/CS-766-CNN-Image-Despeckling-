@@ -46,7 +46,7 @@ In the above equations,   are mean squared error, local means, standard deviatio
 
 ![multiplicative_plot]
 
-Figure 3 shows quantitatively similar results to the qualitative results shown in Figures 1 and 2. We can see that the pCNN performs better for lower image noise levels (0-0.12) than all of the cCNNs. However, when reaching higher noise levels, the cCNNs trained with higher noise levels perform better than the pCNN. We do want to add caution, even if the quantitative measurements show better results, qualitative results are needed to see key features and finer details such as the clock hands in Figures 1 and 2.
+The quantitative plots show similar results to the qualitative results shown in Figures 1 and 2. We can see that the pCNN performs better for lower image noise levels (0-0.12) than all of the cCNNs. However, when reaching higher noise levels, the cCNNs trained with higher noise levels perform better than the pCNN. We do want to add caution, even if the quantitative measurements show better results, qualitative results are needed to see key features and finer details such as the clock hands in Figures 1 and 2.
 
 ## Network Description
 ### Residual Learning Formulation
