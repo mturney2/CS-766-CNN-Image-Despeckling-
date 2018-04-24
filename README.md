@@ -3,7 +3,6 @@
 [flowchart3]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture6.png
 [multiplicative1]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/clock/07_Speckle_Clock.jpg
 [multiplicative1_zoomed]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/clock/07_Speckle_Clock_Faces.jpg
-[multiplicative2]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture8.jpg
 [additive1]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture2.png
 [additive2]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture3.png
 [additive_plot]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture4.png
@@ -65,8 +64,6 @@ The quantitative plots show similar results to the qualitative results shown in 
 ![multiplicative1]
 
 ![multiplicative1_zoomed]
-
-[multiplicative2]
 
 ![multiplicative_plot]
 
