@@ -55,7 +55,7 @@ We also report on the noise removal from images corrupted with multiplicative no
 The figures above illustrates the performance differences in the respective each networks. Visually, the best denoised image comes from...
 
 ![multiplicative_plot](Images/Picture7.png){:class="img-responsive"}
-
+These quantitative plots show numerically how the different methods perform. We can see again the pCNN performs better until the noise levels approach the level that was used for the training process. In that case, the respective networks perform best at each noise level. Of the two custom networks that were trained, the network that was trained for a noise residual (instead of a clean image) performed better. 
 
 
 ### References
