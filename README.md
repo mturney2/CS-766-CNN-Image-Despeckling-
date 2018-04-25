@@ -1,13 +1,3 @@
-[flowchart1]: Images/Picture1.png
-[flowchart2]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture5.png
-[flowchart3]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture6.png
-[multiplicative1]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/clock/07_Speckle_Clock.jpg
-[multiplicative1_zoomed]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/clock/07_Speckle_Clock_Faces.jpg
-[additive1]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture2.png
-[additive2]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture3.png
-[additive_plot]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture4.png
-[multiplicative_plot]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture7.png
-
 # Image Denoising using a Convolutional Neural Network
 ## Rashid Al Mukaddim, Michael Turney, Robert Pohlman
 
@@ -60,11 +50,9 @@ The quantitative plots show similar results to the qualitative results shown in 
 ## Results for Multiplicative Noise
 We also report on the noise removal from images corrupted with multiplicative noise taken from a uniform noise distribution with zero mean and a range of noise variance. The noisy images were generated with the below noise model. The noisy images are denoised using two different custom trained CNN's shown below. 
 
-![multiplicative1](Images/clock/07_Speckle_Clock.jpg){:class="img-responsive"}
+![multiplicative1](Images/Picture9.png){:class="img-responsive"}
 
 The figures above illustrates the performance differences in the respective each networks. Visually, the best denoised image comes from...
-
-![multiplicative1_zoomed](Images/clock/07_Speckle_Clock_Faces.jpg){:class="img-responsive"}
 
 ![multiplicative_plot](Images/Picture7.png){:class="img-responsive"}
 
