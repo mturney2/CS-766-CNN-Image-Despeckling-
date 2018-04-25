@@ -4,6 +4,9 @@
 ## Problem Statement
 The project is focused to reduce speckle noise present in B-mode ultrasound (US) imaging. Conventional speckle noise reduction techniques fail to preserve edges and finer details while removing noise. The main aim of the project is to achieve speckle removal from B-mode US images while maintaining edge/sharp features.  
 
+![ultrasound_phantom](Images/Picture10.jpg){:class="img-responsive"}
+
+
 ## Current State of the Art
 
 ## Proposed Solution
