@@ -37,9 +37,9 @@ The proposed network architecture is shown in Figure 1. The proposed CNN has a d
 ### Direct Denoising Formulation
 We utilized the similar network architecture discussed in previous section to directly perform denoising of the noisy image. The goal of this CNN is to learn a mapping from Y X to estimate the underlying clean image. Euclidean loss function is used for training defined as:
 
-where,   is the learned network parameters for estimating despeckled image,  . Network configurations are presented in Table 1.
-
 ![flowchart2](Images/Picture5.png){:class="img-responsive"}
+
+where,   is the learned network parameters for estimating despeckled image,  . Network configurations are presented in Table 1.
 
 ## Results for Additive Noise
 We report on the noise removal from images corrupted with Gaussian white noise with varying noise variance. The noisy images were generated using a simple noise model -   where  and   are variance and mean of the noise distribution respectively. (m,n) is defined by the row and column dimensions of the original image. The noisy images are de-noised using Gaussian filter, Median filter, Pre-trained CNN and three custom trained CNNs. The two figures below present qualitative comparisons among the methods. 
