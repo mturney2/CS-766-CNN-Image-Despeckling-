@@ -18,13 +18,23 @@ iii.	Performance comparison among conventional filtering, pre-trained CNN and cu
 
 ## Implementation Details
 
-### Network Description
 ### Residual Learning Formulation
 ![flowchart3](Images/Picture6.png){:class="img-responsive"}
 
+The input of the proposed image denoising convolutional neural network (CNN) is a noisy image corrupted by multiplicative speckle noise. The input image, Y is modeled as Y = X(1+F) where F is the speckle noise variable and X is the clean ideal image. The goal of our proposed CNN is to learn a mapping from Y F to estimate the underlying speckle noise. In order to achieve this, a residual learning formulation is adopted from [1] is utilized to train the CNN. Formally, the Euclidean loss function for training can be defined: 
+
+where  is the learned network parameters to estimate underlying speckle noise,  . The image dimensions are defined using W and H representing width and height respectively. Finally, despeckled image is generated through a point-wise division operation involving noisy image and estimated noise. Formally, we can express despeckled image as:   where ,/ represents elementwise division between two matrices. 
+
 ### Network Architecture
+The proposed network architecture is shown in Figure 1. The proposed CNN has a depth of 8 with two types of layers. 
+(i) Conv+ReLU: Layers 1 and 8 uses 64 convolutional filters to generated feature maps and rectified linear units (ReLu,  ) for non-linearity. (ii) Conv+BN+ReLU: Layers 2-7 uses convolutional filters with additional batch normalization [2] between filters and ReLu. The detailed specification of the network is presented in Table 1.
+
 
 ### Direct Denoising Formulation
+We utilized the similar network architecture discussed in previous section to directly perform denoising of the noisy image. The goal of this CNN is to learn a mapping from Y X to estimate the underlying clean image. Euclidean loss function is used for training defined as:
+
+where,   is the learned network parameters for estimating despeckled image,  . Network configurations are presented in Table 1.
+
 ![flowchart2](Images/Picture5.png){:class="img-responsive"}
 
 ## Results for Additive Noise
