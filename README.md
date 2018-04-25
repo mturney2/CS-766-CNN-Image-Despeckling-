@@ -1,4 +1,4 @@
-[flowchart1]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture1.png
+[flowchart1]: Images/Picture1.png
 [flowchart2]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture5.png
 [flowchart3]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture6.png
 [multiplicative1]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/clock/07_Speckle_Clock.jpg
@@ -8,7 +8,7 @@
 [additive_plot]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture4.png
 [multiplicative_plot]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture7.png
 
-![test5](t.jpg){:class="img-responsive"}
+![test5]flowchart1{:class="img-responsive"}
 
 # Image Denoising using a Convolutional Neural Network
 ## Rashid Al Mukaddim, Michael Turney, Robert Pohlman
