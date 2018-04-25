@@ -8,7 +8,7 @@
 [additive_plot]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture4.png
 [multiplicative_plot]: https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/Images/Picture7.png
 
-![asdfasdf](https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/blob/master/t.jpg)
+![asdfasdf](https://github.com/mturney2/CS-766-CNN-Image-Despeckling-/t.jpg)
 # Image Denoising using a Convolutional Neural Network
 ## Rashid Al Mukaddim, Michael Turney, Robert Pohlman
 
