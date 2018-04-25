@@ -57,6 +57,7 @@ The figures above illustrates the performance differences in the respective each
 ![multiplicative_plot](Images/Picture7.png){:class="img-responsive"}
 These quantitative plots show numerically how the different methods perform. We can see again the pCNN performs better until the noise levels approach the level that was used for the training process. In that case, the respective networks perform best at each noise level. Of the two custom networks that were trained, the network that was trained for a noise residual (instead of a clean image) performed better. 
 
+# Applications to Ultrasound
 
 ### References
 [1]	P. Wang, H. Zhang, and V. M. Patel, "SAR Image Despeckling Using a Convolutional," arXiv preprint arXiv:1706.00552, 2017.  
