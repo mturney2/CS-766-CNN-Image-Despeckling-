@@ -66,6 +66,7 @@ The examples show that the CNNs have trade-offs between recovering global and fi
 
 For quantitative performance evaluation, we looked into three different image quality metrics – a) Peak SNR (pSNR) b) Mean Squared Error (MSE) and c) Structural Similarity Index (SSIM) [12]. The metrics are defined as follows –
 
+![eq3](Images/equation3.png){:class="img-responsive"}
 
 In the above equations,   are mean squared error, local means, standard deviations and cross-covariance for images x and y respectively. The image quality indices are evaluated over a range of noise variance to comparing the performance between pre-trained and custom trained CNN. 
 
