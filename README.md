@@ -91,15 +91,15 @@ The figures above illustrate the performance differences in the respective each 
 These quantitative plots show numerically how the different methods perform. We can see again the pCNN performs better until the noise levels approach the level that was used for the training process. In that case, the respective networks perform best at each noise level. Of the two custom networks that were trained, the network that was trained for a noise residual (instead of a clean image) performed better. 
 
 ### References
-[1] J. S. Lee, IEEE Trans. Pattern Anal. Mach. Intell., 1980
-[2] V. Frost, J. Stiles, K. Shanmugan, and J. Holtzman, IEEE Trans. Pattern Anal. Mach. Intell.,1982 
-[3] D. Kuan, A. Sawchuck, T. Strand, and P. Chavel, IEEE Trans. Pattern Anal. Mach. Intell.,1985 
-[4] P. Perona and J. Malik, IEEE Trans. Pattern Anal. Mach. Intell., 1990 
-[5] L. Rudin, S. Osher, and E. Fatemi, Phys. D, 1992 
-[6] Y. Yu and S. T. Acton, IEEE Trans. Image Process, 2002. 
-[7] Jain, Viren, and Sebastian Seung. Advances in Neural Information Processing Systems. 2009.
-[8] Zhang, Kai, et al. IEEE Transactions on Image Processing 26.7 (2017): 3142-3155.
-[9] Haque, Kazi Nazmul, Mohammad Abu Yousuf, and Rajib Rana. arXiv preprint arXiv:1801.05141 (2018
-[10]	P. Wang, H. Zhang, and V. M. Patel, "SAR Image Despeckling Using a Convolutional," arXiv preprint arXiv:1706.00552, 2017.  
-[11]	K. Zhang, W. Zuo, Y. Chen, D. Meng, and L. Zhang, "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising,"   IEEE Trans Image Process, vol. 26, no. 7, pp. 3142-3155, Jul 2017.  
-[12]	Z. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli, "Image quality assessment: from error visibility to structural similarity,"  IEEE transactions on image processing, vol. 13, no. 4, pp. 600-612, 2004.
+[1] J. S. Lee, IEEE Trans. Pattern Anal. Mach. Intell., 1980   
+[2] V. Frost, J. Stiles, K. Shanmugan, and J. Holtzman, IEEE Trans. Pattern Anal. Mach. Intell.,1982    
+[3] D. Kuan, A. Sawchuck, T. Strand, and P. Chavel, IEEE Trans. Pattern Anal. Mach. Intell.,1985    
+[4] P. Perona and J. Malik, IEEE Trans. Pattern Anal. Mach. Intell., 1990    
+[5] L. Rudin, S. Osher, and E. Fatemi, Phys. D, 1992    
+[6] Y. Yu and S. T. Acton, IEEE Trans. Image Process, 2002.    
+[7] Jain, Viren, and Sebastian Seung. Advances in Neural Information Processing Systems. 2009.   
+[8] Zhang, Kai, et al. IEEE Transactions on Image Processing 26.7 (2017): 3142-3155.   
+[9] Haque, Kazi Nazmul, Mohammad Abu Yousuf, and Rajib Rana. arXiv preprint arXiv:1801.05141 (2018)
+[10]	P. Wang, H. Zhang, and V. M. Patel, "SAR Image Despeckling Using a Convolutional," arXiv preprint arXiv:1706.00552, 2017.    
+[11]	K. Zhang, W. Zuo, Y. Chen, D. Meng, and L. Zhang, "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising,"   IEEE Trans Image Process, vol. 26, no. 7, pp. 3142-3155, Jul 2017.      
+[12]	Z. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli, "Image quality assessment: from error visibility to structural similarity,"  IEEE transactions on image processing, vol. 13, no. 4, pp. 600-612, 2004.    
