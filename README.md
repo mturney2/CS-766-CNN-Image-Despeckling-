@@ -46,6 +46,9 @@ The proposed network architecture is shown in Figure 1. The proposed CNN has a d
 
 ![equation2](Images/equation2.png){:class="img-responsive"}
 
+![table1](Images/table1.png){:class="img-responsive"}
+
+
 
 ## Direct Denoising Formulation
 We utilized the similar network architecture discussed in previous section to directly perform denoising of the noisy image. The goal of this CNN is to learn a mapping from Y X to estimate the underlying clean image. Euclidean loss function is used for training defined as:
