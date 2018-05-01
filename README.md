@@ -40,7 +40,7 @@ The input of the proposed image denoising convolutional neural network (CNN) is 
 
 where ./ represents elementwise division between two matrices. 
 
-![table2](Images/table1.PNG){:class="img-responsive"}
+![table1](Images/table1.PNG){:class="img-responsive"}
 
 
 ## Network Architecture
@@ -49,7 +49,7 @@ The proposed network architecture is shown in Figure 1. The proposed CNN has a d
 
 ![equation2](Images/equation2.png){:class="img-responsive"}
 
-![table1](Images/table2.PNG){:class="img-responsive"}
+![table2](Images/table2.PNG){:class="img-responsive"}
 
 
 
