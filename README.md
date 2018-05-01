@@ -2,12 +2,13 @@
 ## Robert Pohlman, Michael Turney, Rashid Al Mukaddim
 
 ## Problem Statement
-The project is focused to reduce speckle noise present in B-mode ultrasound (US) imaging. Conventional speckle noise reduction techniques fail to preserve edges and finer details while removing noise. The main aim of the project is to achieve speckle removal from B-mode US images while maintaining edge/sharp features.  
+The project is focused to reduce speckle noise present in B-mode ultrasound (US) imaging. Conventional speckle noise reduction techniques fail to preserve edges and finer details while removing noise. The main aim of the project is to achieve speckle removal from B-mode US images while maintaining edge/sharp features.  Speckle noise in ultrasound images affects edges and fine details that can limit the diagnostic usability. In this project we explore CNN's to perform the neccessary denoising. 
 
 ![ultrasound_phantom](Images/Picture10.jpg){:class="img-responsive"}
 
 
 ## Current State of the Art
+
 
 ## Proposed Solution
 We addressed the problem of image despeckling by designing a convolutional neural network. The network structure is motivated be the work by Wang et. al [1].
