@@ -25,6 +25,9 @@ ii.	Design and train a custom CNN (cCNN) for additive Gaussian noise [10]. (Netw
 iii.	Performance comparison among conventional filtering, pre-trained CNN and custom CNN  
 
 After becoming comfortable with CNNs in MATLAB we designed our own network to solve the image despeckling problem. 
+### Image Dataset 
+
+The following networks were trained using approximatily 5500 images from the ImageNet Large Scale Visual Recognition Challenge 2017. (ILSVRC2017) 
 
 
 
