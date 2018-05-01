@@ -40,6 +40,9 @@ The input of the proposed image denoising convolutional neural network (CNN) is 
 
 where ./ represents elementwise division between two matrices. 
 
+![table2](Images/table2.PNG){:class="img-responsive"}
+
+
 ## Network Architecture
 The proposed network architecture is shown in Figure 1. The proposed CNN has a depth of 8 with two types of layers. 
 (i) Conv+ReLU: Layers 1 and 8 uses 64 convolutional filters to generated feature maps and rectified linear units (ReLu,  ) for non-linearity. (ii) Conv+BN+ReLU: Layers 2-7 uses convolutional filters with additional batch normalization [11] between filters and ReLu. 
