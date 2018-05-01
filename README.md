@@ -29,7 +29,7 @@ After becoming comfortable with CNNs in MATLAB we designed our own network to so
 
 The input of the proposed image denoising convolutional neural network (CNN) is a noisy image corrupted by multiplicative speckle noise. The input image, Y is modeled as Y = X(1+F) where F is the speckle noise variable and X is the clean ideal image. The goal of our proposed CNN is to learn a mapping from Y F to estimate the underlying speckle noise. In order to achieve this, a residual learning formulation is adopted from [1] is utilized to train the CNN. Formally, the Euclidean loss function for training can be defined: 
 
-![equation1](Images/equation1.tif){:class="img-responsive"}
+![equation1](Images/equation1.png){:class="img-responsive"}
 
 where  is the learned network parameters to estimate underlying speckle noise,  . The image dimensions are defined using W and H representing width and height respectively. Finally, despeckled image is generated through a point-wise division operation involving noisy image and estimated noise. Formally, we can express despeckled image as:   where ,/ represents elementwise division between two matrices. 
 
