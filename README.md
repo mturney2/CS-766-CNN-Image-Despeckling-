@@ -52,8 +52,6 @@ We utilized the similar network architecture discussed in previous section to di
 
 ![flowchart2](Images/Picture5.png){:class="img-responsive"}
 
-where,   is the learned network parameters for estimating despeckled image,  . Network configurations are presented in Table 1.
-
 ## Results for Additive Noise
 We report on the noise removal from images corrupted with Gaussian white noise with varying noise variance. The noisy images were generated using a simple noise model -   where  and   are variance and mean of the noise distribution respectively. (m,n) is defined by the row and column dimensions of the original image. The noisy images are de-noised using Gaussian filter, Median filter, Pre-trained CNN and three custom trained CNNs. The two figures below present qualitative comparisons among the methods. 
 
@@ -65,6 +63,7 @@ The figure above clearly illustrates superior performance of CNN over convention
 
 The above figure illustrates another case of superior performance of CNN over conventional de-noising filters. Among cCNNs, the one trained with noise variance 0.6 performed the best. In this case, cCNN (0.6) performed better compared to pCNN in recovering the global details of the image. It can be argued that some fine detail is recovered better by pCNN than cCNN (0.6). 
 The examples show that the CNNs have trade-offs between recovering global and finer details. This qualitative observation leads us to one of our main future goal for this project – “Recovering global and finer details from the noisy image using our custom designed network”.  
+
 For quantitative performance evaluation, we looked into three different image quality metrics – a) Peak SNR (pSNR) b) Mean Squared Error (MSE) and c) Structural Similarity Index (SSIM) [12]. The metrics are defined as follows –
 
 
