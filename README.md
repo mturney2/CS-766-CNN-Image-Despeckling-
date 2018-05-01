@@ -38,11 +38,11 @@ The input of the proposed image denoising convolutional neural network (CNN) is 
 
 ![equation1](Images/equation1.png){:class="img-responsive"}
 
-where  is the learned network parameters to estimate underlying speckle noise,  . The image dimensions are defined using W and H representing width and height respectively. Finally, despeckled image is generated through a point-wise division operation involving noisy image and estimated noise. Formally, we can express despeckled image as:   where ,/ represents elementwise division between two matrices. 
+where ./ represents elementwise division between two matrices. 
 
 ## Network Architecture
 The proposed network architecture is shown in Figure 1. The proposed CNN has a depth of 8 with two types of layers. 
-(i) Conv+ReLU: Layers 1 and 8 uses 64 convolutional filters to generated feature maps and rectified linear units (ReLu,  ) for non-linearity. (ii) Conv+BN+ReLU: Layers 2-7 uses convolutional filters with additional batch normalization [11] between filters and ReLu. The detailed specification of the network is presented in Table 1.
+(i) Conv+ReLU: Layers 1 and 8 uses 64 convolutional filters to generated feature maps and rectified linear units (ReLu,  ) for non-linearity. (ii) Conv+BN+ReLU: Layers 2-7 uses convolutional filters with additional batch normalization [11] between filters and ReLu. 
 
 ![equation2](Images/equation2.png){:class="img-responsive"}
 
