@@ -46,7 +46,7 @@ The proposed network architecture is shown in Figure 1. The proposed CNN has a d
 
 ![equation2](Images/equation2.png){:class="img-responsive"}
 
-![table1](Images/table1.png){:class="img-responsive"}
+![table1](Images/table1.PNG){:class="img-responsive"}
 
 
 
