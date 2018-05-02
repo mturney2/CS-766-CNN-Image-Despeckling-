@@ -12,7 +12,7 @@ There are number of speckle reduction techniques reported in the peer reviewed l
 1. Conventional Filtering for Speckle Reduction: These approaches include traditional linear and non-linear filtering techniques. Example includes Gaussian smoothening and median filtering. These methods fail to reliably remove speckle noise due to its signal dependent nature resulting into over smoothed images.
 2. Adaptive Filtering: These methods tune filter parameters based local images statistics such as regional mean and variance of intensity. Examples include Lee’s filter [1] , Frost’s filter [2] and Kuan’s filter [3]. Their performance is better compared to conventional techniques due to adaptive nature. But still fails to preserve edges reliably.
 3. Partial Differential Equation (PDE) – Based Approaches: These methods control the amount of smoothening based on edge information. The filtering process is formulated as a partial differential equation. Minimizing the solution of this equation over time results into filtered image. They exhibit better edge preserving performance compared to other methods  mentioned here. Example includes - Anisotropic Diffusion filter [4], Total variation minimization scheme [5] and Speckle Reducing Anistopic Diffusion (SRAD) [6] 
-4. Neural Network for Image Denoising: In the recent time, neural network based image denoising shown some excellent performance. The of works are cite here [7-9].
+4. Neural Network for Image Denoising: In the recent time, neural network based image denoising shown some excellent performance. Some of the works are cite here [7-9].
 
 ## Proposed Solution
 We addressed the problem of image despeckling by designing a convolutional neural network. The network structure is motivated be the work by Wang et. al [10].
@@ -34,7 +34,7 @@ The following networks were trained using approximatily 5500 images from the Ima
 ## Residual Learning Formulation
 ![flowchart3](Images/Picture6.png){:class="img-responsive"}
 
-The input of the proposed image denoising convolutional neural network (CNN) is a noisy image corrupted by multiplicative speckle noise. The input image, Y is modeled as Y = X(1+F) where F is the speckle noise variable and X is the clean ideal image. The goal of our proposed CNN is to learn a mapping from Y F to estimate the underlying speckle noise. In order to achieve this, a residual learning formulation is adopted from [11] is utilized to train the CNN. Formally, the Euclidean loss function for training can be defined: 
+The input of the proposed image denoising convolutional neural network (CNN) is a noisy image corrupted by multiplicative speckle noise. The input image, Y is modeled as Y = X(1+F) where F is the speckle noise variable and X is the clean ideal image. The goal of our proposed CNN is to learn a mapping from Y to F to estimate the underlying speckle noise. In order to achieve this, a residual learning formulation adopted from [11] is utilized to train the CNN. Formally, the Euclidean loss function for training can be defined: 
 
 ![equation1](Images/equation1.png){:class="img-responsive"}
 
