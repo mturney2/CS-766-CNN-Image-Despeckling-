@@ -31,7 +31,7 @@ The following networks were trained using approximatily 5500 images from the Ima
 
 
 
-## Residual Learning Formulation
+## Residual Learning Formulation and Network Architectures
 ![flowchart3](Images/Picture6.png){:class="img-responsive"}
 
 The input of the proposed image denoising convolutional neural network (CNN) is a noisy image corrupted by multiplicative speckle noise. The input image, Y is modeled as Y = X(1+F) where F is the speckle noise variable and X is the clean ideal image. The goal of our proposed CNN is to learn a mapping from Y F to estimate the underlying speckle noise. In order to achieve this, a residual learning formulation is adopted from [11] is utilized to train the CNN. Formally, the Euclidean loss function for training can be defined: 
@@ -43,15 +43,12 @@ where ./ represents elementwise division between two matrices.
 ![table1](Images/table1.PNG){:class="img-responsive"}
 
 
-## Network Architecture
 The proposed network architecture is shown in Figure 1. The proposed CNN has a depth of 8 with two types of layers. 
 (i) Conv+ReLU: Layers 1 and 8 uses 64 convolutional filters to generated feature maps and rectified linear units (ReLu,  ) for non-linearity. (ii) Conv+BN+ReLU: Layers 2-7 uses convolutional filters with additional batch normalization [11] between filters and ReLu. 
 
 ![equation2](Images/equation2.png){:class="img-responsive"}
 
 ![table2](Images/table2.PNG){:class="img-responsive"}
-
-
 
 ## Direct Denoising Formulation
 We utilized the similar network architecture discussed in previous section to directly perform denoising of the noisy image. The goal of this CNN is to learn a mapping from Y X to estimate the underlying clean image. Euclidean loss function is used for training defined as:
