@@ -29,9 +29,10 @@ After becoming comfortable with CNNs in MATLAB we designed our own network to so
 
 The following networks were trained using approximatily 5500 images from the ImageNet Large Scale Visual Recognition Challenge 2017. (ILSVRC2017) 
 
-![flowchart3](Images/Picture6.png){:class="img-responsive"}
+
 
 ## Residual Learning Formulation
+![flowchart3](Images/Picture6.png){:class="img-responsive"}
 
 The input of the proposed image denoising convolutional neural network (CNN) is a noisy image corrupted by multiplicative speckle noise. The input image, Y is modeled as Y = X(1+F) where F is the speckle noise variable and X is the clean ideal image. The goal of our proposed CNN is to learn a mapping from Y F to estimate the underlying speckle noise. In order to achieve this, a residual learning formulation is adopted from [11] is utilized to train the CNN. Formally, the Euclidean loss function for training can be defined: 
 
