@@ -71,7 +71,7 @@ For quantitative performance evaluation, we looked into three different image qu
 
 ![eq3](Images/equation3.png){:class="img-responsive"}
 
-The above equations are root mean squared error, local means, standard deviations and cross-covariance for images x and y respectively. The image quality indices are evaluated over a range of noise variance to comparing the performance between pre-trained and custom trained CNN. 
+The image quality indices are evaluated over a range of noise variance to comparing the performance between pre-trained and custom trained CNN. 
 
 ![additive_plot](Images/Picture4.png){:class="img-responsive"}
 
